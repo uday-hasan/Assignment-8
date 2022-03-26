@@ -11,5 +11,8 @@
   grid-gap: 10px;
 }
 .cart {
-  border: solid;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background-color: rgba(162, 219, 219, 0.712);
 }
