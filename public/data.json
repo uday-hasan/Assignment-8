@@ -31,13 +31,13 @@
   },
   {
     "id": 106,
-    "picture": "http://placehold.it/32x32",
+        "picture": "https://img.freepik.com/free-photo/front-view-modern-optical-sunglasses-grey_140725-18269.jpg?size=626&ext=jpg&ga=GA1.2.1120256030.1642149418",
     "name": "Maryanne Campos",
     "price": 754
   },
   {
     "id": 107,
-    "picture": "http://placehold.it/32x32",
+        "picture": "https://img.freepik.com/free-photo/front-view-modern-optical-sunglasses-grey_140725-18269.jpg?size=626&ext=jpg&ga=GA1.2.1120256030.1642149418",
     "name": "Ratliff Ayala",
     "price": 619
   },
@@ -61,7 +61,7 @@
   },
   {
     "id": 111,
-    "picture": "http://placehold.it/32x32",
+        "picture": "https://img.freepik.com/free-photo/front-view-modern-optical-sunglasses-grey_140725-18269.jpg?size=626&ext=jpg&ga=GA1.2.1120256030.1642149418",
     "name": "Rosetta Jenkins",
     "price": 492
   },
