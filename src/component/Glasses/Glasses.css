@@ -1,0 +1,15 @@
+.product-container {
+  display: grid;
+  grid-template-columns: 65% 25%;
+  margin-top: 10px;
+  grid-gap: 10px;
+  justify-content: center;
+}
+.glasses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.cart {
+  border: solid;
+}
