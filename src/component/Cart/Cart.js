@@ -3,17 +3,15 @@ import React from 'react';
 import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import './Cart.css';
 const Cart = (props) => {
-    const{picture,name,id} = props.cart;
-    const removeCart =(value) => {
-        console.log(value,'clicked');
-    }
+    const{picture,name} = props.cart;
+    const removeCart = props.removeCart;
     return (
         <div className='cart-container'>
             <div className="img">
                 <img src={picture} alt="" />
             </div>
             <div>
-                <h4>{name} <button onClick={() => removeCart(id)}><FontAwesomeIcon  icon={faTrashCan}></FontAwesomeIcon></button></h4>
+                <h4>{name} <button onClick={removeCart}><FontAwesomeIcon  icon={faTrashCan}></FontAwesomeIcon></button></h4>
             </div>
         </div>
     );

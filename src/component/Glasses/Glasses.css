@@ -16,3 +16,8 @@
   height: 100vh;
   background-color: rgba(162, 219, 219, 0.712);
 }
+@media screen and (max-width: 668px) {
+  .glasses {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

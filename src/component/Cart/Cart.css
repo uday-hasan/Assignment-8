@@ -1,9 +1,11 @@
 .cart-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: space-around;
   align-items: center;
+  padding: 10px;
 }
 .cart-container img {
-  width: 100px;
+  width: 45%;
   border-radius: 60px;
 }
