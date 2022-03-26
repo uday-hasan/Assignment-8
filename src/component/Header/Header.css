@@ -2,7 +2,10 @@ nav {
   background-color: rgb(243 236 236);
   color: rgb(9 34 34);
   padding: 2px;
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 nav span {
   color: rgb(17, 14, 214);

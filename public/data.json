@@ -2,73 +2,73 @@
   {
     "id": 101,
     "picture": "https://img.freepik.com/free-photo/pair-round-glasses-rose-white-background_23-2148309999.jpg?w=996",
-    "name": "Isabella Bishop",
+    "name": "Isa-101 ",
     "price": 721
   },
   {
     "id": 102,
     "picture": "https://img.freepik.com/free-photo/front-view-optical-sunglasses-grey-desk-along-with-cream-cleaning-tissue-isolated-sight-vision-eyes_140725-18285.jpg?t=st=1648220202~exp=1648220802~hmac=32bd8e28a2510d91fe57ba8abf94659478efaa8b2f3e6480f723e21292be2d40&w=996",
-    "name": "Kathy Robles",
+    "name": "Kath-55",
     "price": 295
   },
   {
     "id": 103,
     "picture": "https://img.freepik.com/free-photo/front-view-modern-sunglasses-modern-grey-desk-isolated-vision-spectacles-elegance_140725-18277.jpg?t=st=1648220237~exp=1648220837~hmac=9d65d38df9dd05b322f1ff5ebaee8bc3a59d58c2b2ec1a3ed2a831e10f46f540&w=900",
-    "name": "Nieves Douglas",
+    "name": "Dolas241",
     "price": 282
   },
   {
     "id": 104,
     "picture": "https://img.freepik.com/free-photo/image-modern-fashionable-spectacles-isolated-white_132416-134.jpg?w=996",
-    "name": "Louise Wagner",
+    "name": "Wagner-88",
     "price": 362
   },
   {
     "id": 105,
     "picture": "https://img.freepik.com/free-photo/front-view-modern-optical-sunglasses-grey_140725-18269.jpg?size=626&ext=jpg&ga=GA1.2.1120256030.1642149418",
-    "name": "Beach Molina",
+    "name": "Beach-656",
     "price": 752
   },
   {
     "id": 106,
     "picture": "https://img.freepik.com/free-photo/eyeglasses-wear_1203-2605.jpg?t=st=1648264469~exp=1648265069~hmac=8d715ab42e0b006aaa2058d68730ac6ba109b3fdaae58513584416b4293c9533&w=996",
-   "name": "Maryanne Campos",
+   "name": "Mary-109",
    "price": 754
   },
   {
     "id": 107,
      "picture": "https://img.freepik.com/free-photo/glasses-white-background-straight-view-advertising-photo-rounded-metal-eyewear-fashion-optical-concept_1157-41959.jpg?t=st=1648264673~exp=1648265273~hmac=2482618df4e733ff8fc779e3617ea3387d9a9160b6f23bcd2a0a5cbb8678e459&w=996",
-    "name": "Ratliff Ayala",
+    "name": "Ayala-002",
     "price": 619
   },
   {
     "id": 108,
     "picture": "https://img.freepik.com/free-photo/eyeglasses-wear_1203-2608.jpg?t=st=1648219972~exp=1648220572~hmac=f0bd473d047bc0f6da26526554f1d08e4b140fcd88c6f31072d6808c3284dab0&w=996",
-    "name": "Bates Mayo",
+    "name": "Brt-200",
     "price": 560
   },
   {
     "id": 109,
     "picture": "https://img.freepik.com/free-photo/woman-ophthalmologist-showing-camera-pair-eyeglasses_23-2148310022.jpg?w=900",
-    "name": "Beth Burris",
+    "name": "Beth-001",
     "price": 598
   },
   {
     "id": 110,
     "picture": "https://img.freepik.com/free-photo/optician-holding-eyeglasses-with-black-frame_23-2148310020.jpg?w=900",
-    "name": "Esmeralda Gonzalez",
+    "name": "Gonz-540",
     "price": 494
   },
   {
     "id": 111,
     "picture": "https://img.freepik.com/free-photo/background-black-glasses-table-spectacles_1172-331.jpg?t=st=1648264960~exp=1648265560~hmac=22d3644cae0933a3d29c0f8649af97f8af994da38c672ec782572075974627d5&w=996",
-   "name": "Rosetta Jenkins",
+   "name": "Jenk-222",
    "price": 492
  },
   {
     "id": 112,
     "picture": "https://img.freepik.com/free-photo/image-modern-fashionable-spectacles-isolated-white_132416-134.jpg?w=996",
-    "name": "Kayla Griffith",
+    "name": "Kayla-112",
     "price": 555
   }
 ]

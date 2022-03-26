@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Glasses Shop
+
+Spectacles Shop live link with [Netlify](https://uday-assignment-8.netlify.app/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

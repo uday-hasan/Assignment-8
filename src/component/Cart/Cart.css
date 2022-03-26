@@ -9,3 +9,10 @@
   width: 45%;
   border-radius: 60px;
 }
+.cart-container .cart-btn {
+  border: none;
+  /* background-color: blue; */
+  font-size: 15px;
+  background: none;
+  padding: 5px;
+}
