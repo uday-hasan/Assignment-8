@@ -1,9 +1,11 @@
 .cart-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 10px;
+  border: 1px solid brown;
+  margin-bottom: 5px;
 }
 .cart-container img {
   width: 45%;
@@ -11,8 +13,14 @@
 }
 .cart-container .cart-btn {
   border: none;
-  /* background-color: blue; */
   font-size: 15px;
   background: none;
   padding: 5px;
+}
+
+@media screen and (max-width: 668px) {
+  .cart-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

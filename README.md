@@ -1,4 +1,4 @@
-# Glasses Shop
+#Spectacles Shop
 
 Spectacles Shop live link with [Netlify](https://uday-assignment-8.netlify.app/).
 
