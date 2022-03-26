@@ -16,6 +16,18 @@
   height: 100vh;
   background-color: rgba(162, 219, 219, 0.712);
 }
+.cart button {
+  padding: 10px;
+  border: none;
+  margin: 0 5px;
+  background-color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(47, 47, 151, 0.849);
+}
+.cart button:hover {
+  box-shadow: 0px 5px 20px rgb(204, 188, 188);
+}
 @media screen and (max-width: 668px) {
   .glasses {
     grid-template-columns: repeat(1, 1fr);

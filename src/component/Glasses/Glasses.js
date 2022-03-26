@@ -5,8 +5,7 @@ import './Glasses.css';
 
 const Glasses = () => {
     const [products, setproducts] = useState([]);
-    const [carted,setCarted] = useState([])
-    const [remove, setRemove] = useState(carted)
+    const [carted,setCarted] = useState([]);
     useEffect(() => {
         fetch('data.json').then(res => res.json()).then(data => setproducts(data))
     },[])
@@ -24,19 +23,23 @@ const Glasses = () => {
             }
         }
   }
-
-  const removeCart = (id) => {
-            console.log(id, 'clicked');
-            const removedProduct = [...remove,id];
-            setRemove(removedProduct);
-            console.log(remove);
+        const removeCart = element => {
+            const rest = carted.filter(product => product !== element);
+            setCarted(rest);
         }
         const clearCart = () => {
             setCarted([]);
         }
-        const selectedOne = () => {
-           const hello = Math.floor(Math.random() * carted.length);
-               console.log(carted[hello]);
+        const randomProduct = () => {
+            if(carted.length <= 0){
+                alert('There have no sufficient element for choose one');
+            }
+            else{
+                const hello = Math.floor(Math.random() * carted.length);
+                const selectedProduct = [carted[hello]]
+                setCarted(selectedProduct)
+                console.log(selectedProduct);
+            }
         }
     return (
        <>
@@ -45,10 +48,11 @@ const Glasses = () => {
             {products.map(glass => <Glass glass={glass} key = {glass.id} addToCart = {() => addToCart(glass)} ></Glass>)}
         </div>
         <div className="cart">
+                    <h2 style={{textAlign:'center'}}>Carted Products</h2>
             {
                 carted.map(cart => <Cart cart={cart} key={cart.id} removeCart = {() => removeCart(cart)}></Cart>)
             }
-            <button onClick={selectedOne}>Find one</button>
+            <button onClick={randomProduct}>Find one</button>
             <button onClick={clearCart}>Clear cart</button>
         </div>
           </div>
